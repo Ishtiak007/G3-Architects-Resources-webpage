@@ -363,7 +363,7 @@ main {
     margin: 14px auto;
   }
   body {
-    padding: 8px;
+    padding: 6px;
   }
   .footer {
     padding: 10px;
@@ -421,17 +421,9 @@ main {
     margin: 14px auto;
   }
   body {
-    padding: 8px;
+    padding: 6px;
   }
   .footer {
     padding: 10px;
   }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 }
