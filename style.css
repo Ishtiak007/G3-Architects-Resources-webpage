@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+  font-family: "Work Sans", sans-serif;
+}
+header {
+  width: 100%;
+  height: 110vh;
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+.architects-logo {
+  color: #131313;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+.menu-bar ul li a {
+  color: #424242;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 10px;
+}
+/* .bar li a {
+  display: flex;
+} */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  display: inline;
+}
