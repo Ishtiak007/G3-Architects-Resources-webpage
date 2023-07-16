@@ -8,9 +8,12 @@
 font-family: 'Open Sans', sans-serif; */
   font-family: "Work Sans", sans-serif;
 }
+section {
+  margin-top: 50px;
+}
 header {
   width: 100%;
-  height: 110vh;
+  height: 145vh;
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px;
 }
@@ -38,4 +41,175 @@ header {
 }
 .navbar ul li {
   display: inline;
+}
+/* banner section starting */
+.content {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6rem;
+}
+.banner-heading {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 55px;
+  font-weight: 700;
+}
+.about-banner {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 8px;
+}
+.btn-primary {
+  border: none;
+  margin-top: 9px;
+  color: white;
+  padding: 18px 23px;
+  outline: none;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.banner-img {
+  width: 100%;
+  margin-top: 50px;
+}
+/* features section starting */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 50px 240px; */
+}
+.features-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.left-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding-left: 70px;
+}
+.left-features img {
+  width: 250px;
+}
+.right-features {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.right-features-heading {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 500;
+}
+.of-our-color {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+}
+.features-color {
+  color: #ff900e;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+}
+.right-features-desc {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 10px;
+}
+/* Features you will love & enjoy */
+
+.love-and-injoy-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 130px; */
+  padding: 0 160px;
+}
+
+.love-and-injoy-heading {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 35px;
+  font-weight: 700;
+  padding-left: 20px;
+  border-left: 5px solid #ff900e;
+}
+.right-love-and-injoy {
+  width: 100%;
+}
+.right-love-and-injoy img {
+  width: 100%;
+  padding: 22px;
+}
+.love-and-injoy-desc {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 8px;
+}
+.card {
+  padding: 10px 30px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-top: 17px;
+  width: 85%;
+}
+.card-heading {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-body {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.badge {
+  width: 200px;
+  height: 130px;
+  border-radius: 8px;
+  background: #ff900e;
+  position: relative;
+  bottom: 70px;
+  right: 30px;
+  padding: 10px;
+}
+.badge-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.badge-para {
+  color: #fff;
+  font-family: Work Sans;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
 }
