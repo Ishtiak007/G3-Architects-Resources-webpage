@@ -13,7 +13,7 @@ section {
 }
 header {
   width: 100%;
-  height: 145vh;
+  /* max-height: 145vh; */
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px;
 }
@@ -281,8 +281,8 @@ main {
   margin-top: 9px;
 }
 .our-sponspors-lists {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: space-around;
   padding: 23px 150px;
 }
 /* footer section */
@@ -303,4 +303,135 @@ main {
   font-size: 20px;
   font-weight: 400;
   padding: 40px 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .menu-bar {
+    margin-top: 20px;
+  }
+  .features-row {
+    flex-direction: column;
+  }
+  .left-features {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 7px;
+  }
+  .right-features {
+    padding: 12px;
+  }
+  .right-features-heading,
+  .of-our-color,
+  .features-color {
+    font-size: 37px;
+    text-align: center;
+  }
+  .love-and-injoy-container {
+    flex-direction: column;
+    padding: 13px;
+  }
+  .left-love-and-injoy {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .right-love-and-injoy .badge {
+    margin: 0 auto;
+  }
+  .some-fact {
+    padding: 14px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .some-fact-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .our-sponspors-lists {
+    flex-direction: column;
+  }
+  .sponspors-img {
+    width: 100px;
+    margin: 14px auto;
+  }
+  body {
+    padding: 8px;
+  }
+  .footer {
+    padding: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .banner-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 7px;
+  }
+  .banner-heading {
+    font-size: 40px;
+  }
+  .content {
+    margin-top: 0px;
+  }
+  .features-row {
+    flex-direction: column;
+  }
+  .left-features {
+    margin-bottom: 2rem;
+  }
+  .love-and-injoy-container {
+    flex-direction: column;
+    padding: 45px;
+  }
+  .card {
+    width: 100%;
+  }
+  .some-fact-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sponspors-img {
+    width: 100px;
+    margin: 14px auto;
+  }
+  body {
+    padding: 8px;
+  }
+  .footer {
+    padding: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
